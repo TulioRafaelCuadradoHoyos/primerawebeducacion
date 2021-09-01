@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-image: radial-gradient(circle at 59.61% 50%, #e5f98c 0, #cef284 16.67%, #b2e77a 33.33%, #90d86c 50%, #6bc961 66.67%, #43be5c 83.33%, #00b65d 100%);
+    font-family: 'Franklin Gothic Medium';
+}
+p{
+    padding: 10px;
+}
+ul{
+    padding-left:  58px;
+}
+ol{
+    padding: 35px;
+    padding-left:  60px;
+}
+.contenedor{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    background: #333;
+    color:white;
+    padding: 2rem 0;
+    width: 100%;
+    height: 20px;
+    background: url(https://dokuma.tech/wp-content/uploads/2020/05/dokuma-header.png);
+
+}
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegador ul li{
+    display: inline-block;
+}
+.navegador ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+.navegador ul li a:hover{
+    background: gold;
+}
+form{
+    
+    padding-left: 15px;
+    display: flex;
+    border-radius: 8px;
+    flex-flow: column;
+    background-color:tomato;
+    padding: 20px;
+    align-items: center;
+}
+input, textarea{
+    padding: 15px
+    width: 80px
+    margin: 25px;
+    border-radius: 4px;
+}
+
+
+.contenedor2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+   
+    align-items: center;
+}
+p{
+    padding-top: 25px;
+}
+
+
+footer{
+    background-image: url(https://i.pinimg.com/originals/ea/aa/8f/eaaa8fbaff9e086cec5d2e00ffad3c3b.png);
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color:beige;
+    margin: 0;
+    padding: 0px; 
+    font-family: Century Gothic;
+    
+}
+p{
+    padding: 10px;
+}
+ul{
+    padding: 30px;
+}
+.contenedor{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    background: #333;
+    color:white;
+    padding: 2rem 0;
+    width: 100%;
+    height: 20px;
+    background: url(https://dokuma.tech/wp-content/uploads/2020/05/dokuma-header.png);
+
+}
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegador ul li{
+    display: inline-block;
+}
+.navegador ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+.navegador ul li a:hover{
+    background: gold;
+}
+h1{
+    font-family: cursive;
+    font-size: 45px;
+    text-align: center;
+    padding: 25px;
+    color: rgb(19, 105, 16);   
+}
+h4{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center; 
+    color: tomato;
+    padding: 5px;
+    
+}
+table{
+    border: purple solid 2px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.titulotabla{
+    color: teal;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+img{
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.img1 { 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: left;
+     width: 600px;
+     height: 400px;  
+ }
+ 
+ hr{
+     padding: 5px;
+     margin: 5px;
+ }
+ .img2 { 
+    padding: 10px; 
+    margin: 1%; 
+    float: center;
+     width: 1200px;
+     height: 400px;
+     display:block;
+    margin:auto;
+ }
+ 
+ .img3{
+        display:block;
+        margin:auto;
+        }
+
+footer{
+    background-image: url(https://i.pinimg.com/originals/ea/aa/8f/eaaa8fbaff9e086cec5d2e00ffad3c3b.png);
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    text-align: center;
+}
+.video1{
+    float: left;
+}
+ .video2{
+     float: right;
+    
+ }
+
+ .video1, .video2, .video3{
+     padding: 25px;
+     margin: 5px;
+
+ }
+ video{
+     height: 300px;
+     width: 430px;
+ }
